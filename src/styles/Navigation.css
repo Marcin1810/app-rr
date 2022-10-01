@@ -1,0 +1,43 @@
+ul {
+    list-style: none;
+
+}
+
+ a {
+    display: block;
+    color: black;
+    /* font-size: ; */
+    padding:  20px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    /* background-color:brown; */
+    transition: .4s;
+}
+
+nav a:hover {
+    transform: translateX(20px);
+    
+}
+
+nav a.active {
+    /* color: white; */
+    border-left: 20px solid burlywood;
+    transform: translateX(0px);
+}
+
+nav li:nth-child(1) a.active {
+    border-left: 20px solid green;
+}
+
+nav li:nth-child(2) a.active {
+    border-left: 20px solid blue;
+}
+
+nav li:nth-child(3) a.active {
+    border-left: 20px solid yellow;
+}
+
+nav li:nth-child(4) a.active {
+    border-left: 20px solid rosybrown;
+}
+
